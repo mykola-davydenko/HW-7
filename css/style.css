@@ -2,10 +2,10 @@
     --links-color: tomato;
 }
 
-[href="https"]{
+a[href^="https"] {
     color: var(--links-color);
-}
-
-ul>p{
+  }
+  
+  ul + p {
     font-size: 24px;
-}
+  }
