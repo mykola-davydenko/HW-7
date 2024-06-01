@@ -1,0 +1,11 @@
+:root{
+    --links-color: tomato;
+}
+
+[href="https"]{
+    color: var(--links-color);
+}
+
+ul>p{
+    font-size: 24px;
+}
